@@ -25,3 +25,15 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Description 
+This project covers basic concepts of Angular 14.
+Different components represents different concepts
+The menu bar in the project helps perform routing.
+The login component performs two way databinding using NgModel.
+The header componets retrieves users name from the login component using services and represents users name after loging in.
+The product component retrieves its data from the product service using dependency injection.
+The users component helps retrieve user list from an open source api using http clients.
+A few components cart component, registration component and inventory component are yet to be configured.
+
+
