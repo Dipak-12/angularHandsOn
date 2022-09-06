@@ -1,0 +1,12 @@
+
+<table border="1">
+  <thead><th>Name</th><th>Product</th><th>Category</th><th>Price</th></thead>
+  <tr *ngFor="let product of items">
+    <td>{{product.name}}</td>
+    <td><img [src]="product.imgPath"></td>
+    <td>{{product.category}}</td>
+    <td>{{product.Price | currency: 'INR'}}</td>
+    <td><input type="button" value="remove" (click)="delete(product.id)"></td>
+  </tr>
+  {{items}}
+</table>
